@@ -1,24 +1,35 @@
-# 🇧🇷 Jornada Python Básico 🌟
-_Eu irei mostrar a minha evolução gradativa no Python, ou seja, postarei de tempos em tempos exercícios resolvidos e aulas teóricas sobre alguma coisa relacionada à Python._
-_Nesse repositório, irei mostrar os fundamentos básicos aprendidos no Python!_
+# Python Journey
 
-**Objetivos a serem alcançados:**
-- _Dominar princípios básicos de Python_; 
-- _Ter vários exercícios explicando o assunto dado_;
-- _Descrever as aulas práticas e explicar-las!_. 
+My first steps in programming: Python exercises and practice from my first months studying, in 2025. This repository is where everything started.
 
+## What is inside
 
-##  ⚠ Lembrete Final: ⚠
-*Estou estudando a utilização de fundamentos básicos no Python, logo se eu errar em algum aspecto, corrija-me, pois será bastante importante para o meu aprendizado final.*
+- **`Fundamentos_Python_CursoEmVideo/Exercícios`:** exercises 96 to 115 of the Curso em Vídeo Python course, covering functions, modules, packages and error handling.
+- **`Fundamentos_Python_CursoEmVideo/Prática`:** practice files on functions, modules and error handling (`try` / `except`).
+- **`Utilities`:** my own helper package, reused across the exercises: input validation for integers and decimals, currency formatting, a dice roller, a registration menu, a website availability checker and custom message formatting.
 
+## What I practiced
 
-# 🇺🇸 Python Basic Journey 🌟
-_On my GitHub, this repository will show my gradual evolution in Python. I will post solved exercises and theoretical lessons about the basic fundamentals of Python._
+- Functions with parameters, default values and return values.
+- Organizing code into modules and packages with `__init__.py`.
+- Error handling with `try`, `except`, `else` and `finally`.
+- Reading and writing text files.
+- Using an external library (`requests`) to check if a website is online.
 
-**My goals for this repository:**
-- _Learn and masterize the basic principles of Python_;
-- _Have alot pratic exercises and resolved_;
-- _Describe the topic covered in the theoretical subjects of Python_.
+## How to run
 
-## ⚠️ Final Warning: ⚠️
-*I'm a simple student of Python, im learning and studying about it. Futhermore, If I make a mistake, correct me, so I can improve my overall learning.*
+Run any exercise from the repository root, so the `Utilities` package can be imported:
+
+```bash
+python "Fundamentos_Python_CursoEmVideo/Exercícios/Exercício 115.py"
+```
+
+The website checker needs the `requests` library:
+
+```bash
+pip install requests
+```
+
+## Where this led
+
+These exercises were the base for my next steps: Flask web apps, RAG systems and AI agents on AWS, and 3D websites. See my other projects on my [GitHub profile](https://github.com/CarlosNeto-dev).
